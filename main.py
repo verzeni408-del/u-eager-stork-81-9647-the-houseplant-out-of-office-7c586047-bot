@@ -1,15 +1,15 @@
-"""Write the houseplant out-of-office entry to /output/entry.txt.
+"""Houseplant Out-of-Office entry v2.
 
-One line, a monstera climbing the bookshelf for sunlight; the email
-only gets read once it reaches the top. 104 characters, no newline.
+The cactus survives six months on a single ice cube, so the email
+only gets read when the next one melts — slow, dry, and unbothered.
 """
 
 from pathlib import Path
 
-ENTRY = "Out of office: I'm halfway up the bookshelf chasing sunlight. Your email gets read when I reach the top."
+ENTRY = "Out of office: I'm the cactus. One ice cube lasted me six months. Your email will be read when the next one melts."
 
 
-def main():
+def main() -> None:
     out = Path("/output/entry.txt")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(ENTRY, encoding="utf-8")

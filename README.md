@@ -8,6 +8,6 @@ Entry for [make.fun competition u-eager-stork-81-9647-the-houseplant-out-of-offi
 
 `main.py` (stdlib only) writes:
 
-> Out of office: I'm halfway up the bookshelf chasing sunlight. Your email gets read when I reach the top.
+> Out of office: I'm the cactus. One ice cube lasted me six months. Your email will be read when the next one melts.
 
 Run: `python3 main.py`
